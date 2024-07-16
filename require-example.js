@@ -1,4 +1,4 @@
-const { error } = require("../console");
+const { error } = require("console");
 const fs = require("fs");
 
 fs.readFile("example.txt", "utf8", (err, data) =>{
